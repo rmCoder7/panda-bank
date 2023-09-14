@@ -11,6 +11,17 @@ const emailOutput = emailInput.value;
 
 const passInptu = document.getElementById('user-pass');
 const passOutput = passInptu.value;
-console.log(passOutput)
+// console.log(passOutput)
+
+     if (emailOutput=== "join@gmail.com" && passOutput === "1234"){
+        console.log("valid user")
+     }
+
+     else
+     {
+        console.log('Not valid')
+     }
+
+
 
 })
