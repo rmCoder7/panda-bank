@@ -16,7 +16,28 @@ document.getElementById('btn-deposit').addEventListener('click' , function(){
     const textValue = depositeTexts.innerText;
     const finallyOutput = parseFloat(textValue);
     // console.log(textValue) 
+
+    // step-4 add numbers to set the total balance
     const finallResultget = finallyOutput+finallyresultOut;
     
     depositeTexts.innerText = finallResultget; 
+
+
+    //   step 4 
+
+    const takeBalance = document.getElementById('btn-balance');
+    const balanceValue = takeBalance.innerText;
+    const previousbalancetoString = parseFloat(balanceValue);
+
+    const currentBalanceTotal = previousbalancetoString+finallyresultOut;
+    takeBalance.innerText = currentBalanceTotal;
+
+
+
+
+
+
+
+
+
 })
