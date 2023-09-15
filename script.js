@@ -14,12 +14,13 @@ const passOutput = passInptu.value;
 // console.log(passOutput)
 
      if (emailOutput=== "join@gmail.com" && passOutput === "1234"){
-        console.log("valid user")
+        // console.log("valid user")
+        window.location.href = "bank.html"
      }
 
      else
      {
-        console.log('Not valid')
+        alert('Not valid')
      }
 
 
