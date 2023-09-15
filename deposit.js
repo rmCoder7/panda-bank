@@ -6,14 +6,17 @@ document.getElementById('btn-deposit').addEventListener('click' , function(){
 
     // add input of deposite
     const depomoney = document.getElementById('user-deposit');
-    const depoOut = depomoney.value;
+    const depoOuted = depomoney.value;
     // console.log(depoOut)
-
+    const finallyresultOut = parseFloat(depoOuted);
 
     // step 3 get deposite total $00 add function
 
     const depositeTexts = document.getElementById('depo-txt');
     const textValue = depositeTexts.innerText;
-    depositeTexts.innerText = depoOut;
-
+    const finallyOutput = parseFloat(textValue);
+    // console.log(textValue) 
+    const finallResultget = finallyOutput+finallyresultOut;
+    
+    depositeTexts.innerText = finallResultget; 
 })
