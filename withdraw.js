@@ -6,7 +6,13 @@ document.getElementById('btn-withdraw').addEventListener('click' , function(){
 //   console.log(convertTostring);
 
 
- 
+ const valueCalling = document.getElementById('value-withdraw');
+ const valueToshow = valueCalling.innerText;
+ const convertValurtostring = parseFloat(valueToshow);
+//  console.log(convertValurtostring)
+
+const cuurentWithdraw = convertTostring+convertValurtostring;
+valueCalling.innerText = cuurentWithdraw;
 
 
 })
