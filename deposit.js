@@ -30,7 +30,7 @@ document.getElementById('btn-deposit').addEventListener('click' , function(){
     const previousbalancetoString = parseFloat(balanceValue);
 
     const currentBalanceTotal = previousbalancetoString+finallyresultOut;
-    takeBalance.innerText = currentBalanceTotal;
+    takeBalance.innerText = currentBalanceTotal;   
 
 
 
