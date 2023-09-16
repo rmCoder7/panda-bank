@@ -15,4 +15,14 @@ const cuurentWithdraw = convertTostring+convertValurtostring;
 valueCalling.innerText = cuurentWithdraw;
 
 
+
+const balancetotallagain = document.getElementById('btn-balance');
+const balancetoatlOutout = balancetotallagain.innerText;
+const convetStirng = parseFloat(balancetoatlOutout);
+
+const newbalanceTotall = convetStirng-convertTostring
+balancetotallagain.innerText = newbalanceTotall;
+
+
+
 })
